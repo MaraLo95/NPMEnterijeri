@@ -1,0 +1,304 @@
+{
+  "_AdminLayout-DnhZPUNE.css": {
+    "file": "assets/AdminLayout-DnhZPUNE.css",
+    "src": "_AdminLayout-DnhZPUNE.css"
+  },
+  "_AdminLayout-i1PdRiwb.js": {
+    "file": "assets/AdminLayout-i1PdRiwb.js",
+    "name": "AdminLayout",
+    "imports": [
+      "resources/react-app/main.jsx",
+      "_index-BkrGiNE7.js",
+      "_proxy-CWL5hJcn.js"
+    ],
+    "dynamicImports": [
+      "resources/react-app/pages/admin/AdminHours.jsx"
+    ],
+    "css": [
+      "assets/AdminLayout-DnhZPUNE.css"
+    ]
+  },
+  "_AdminStyles-CK02gXOW.css": {
+    "file": "assets/AdminStyles-CK02gXOW.css",
+    "src": "_AdminStyles-CK02gXOW.css"
+  },
+  "_WorkerStyles-BZ_JQRxk.js": {
+    "file": "assets/WorkerStyles-BZ_JQRxk.js",
+    "name": "WorkerStyles",
+    "imports": [
+      "resources/react-app/main.jsx",
+      "_index-BkrGiNE7.js",
+      "_proxy-CWL5hJcn.js"
+    ],
+    "css": [
+      "assets/WorkerStyles-DqvnOb-Q.css"
+    ]
+  },
+  "_WorkerStyles-DqvnOb-Q.css": {
+    "file": "assets/WorkerStyles-DqvnOb-Q.css",
+    "src": "_WorkerStyles-DqvnOb-Q.css"
+  },
+  "_index-BkrGiNE7.js": {
+    "file": "assets/index-BkrGiNE7.js",
+    "name": "index",
+    "imports": [
+      "resources/react-app/main.jsx",
+      "_proxy-CWL5hJcn.js"
+    ]
+  },
+  "_proxy-CWL5hJcn.js": {
+    "file": "assets/proxy-CWL5hJcn.js",
+    "name": "proxy",
+    "imports": [
+      "resources/react-app/main.jsx"
+    ]
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons-BeopsB42.woff",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons-mSm7cUeB.woff2",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
+  },
+  "resources/react-app/main.jsx": {
+    "file": "assets/main-B9f9NE57.js",
+    "name": "main",
+    "src": "resources/react-app/main.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/react-app/pages/HomePage.jsx",
+      "resources/react-app/pages/admin/AdminLogin.jsx",
+      "resources/react-app/pages/admin/AdminDashboard.jsx",
+      "resources/react-app/pages/admin/AdminGallery.jsx",
+      "resources/react-app/pages/admin/AdminProjects.jsx",
+      "resources/react-app/pages/admin/AdminWorkers.jsx",
+      "resources/react-app/pages/admin/AdminClients.jsx",
+      "resources/react-app/pages/admin/AdminHours.jsx",
+      "resources/react-app/pages/admin/AdminCenovnik.jsx",
+      "resources/react-app/pages/admin/AdminObracunPonude.jsx",
+      "resources/react-app/pages/admin/AdminKreiranjePonude.jsx",
+      "resources/react-app/pages/worker/WorkerProfile.jsx",
+      "resources/react-app/pages/worker/WorkerProjects.jsx",
+      "resources/react-app/pages/worker/WorkerDamageReport.jsx",
+      "resources/react-app/pages/worker/WorkerHours.jsx"
+    ],
+    "css": [
+      "assets/main-D-QT4dHw.css"
+    ],
+    "assets": [
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/react-app/pages/HomePage.jsx": {
+    "file": "assets/HomePage-NdxYqFoL.js",
+    "name": "HomePage",
+    "src": "resources/react-app/pages/HomePage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/react-app/main.jsx",
+      "_proxy-CWL5hJcn.js",
+      "_index-BkrGiNE7.js"
+    ],
+    "css": [
+      "assets/HomePage-DGonm9ht.css"
+    ]
+  },
+  "resources/react-app/pages/admin/AdminCenovnik.jsx": {
+    "file": "assets/AdminCenovnik-DBMWxQVh.js",
+    "name": "AdminCenovnik",
+    "src": "resources/react-app/pages/admin/AdminCenovnik.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/react-app/main.jsx",
+      "_AdminLayout-i1PdRiwb.js",
+      "_proxy-CWL5hJcn.js",
+      "_index-BkrGiNE7.js"
+    ],
+    "css": [
+      "assets/AdminStyles-CK02gXOW.css"
+    ]
+  },
+  "resources/react-app/pages/admin/AdminClients.jsx": {
+    "file": "assets/AdminClients-DGYuwF-O.js",
+    "name": "AdminClients",
+    "src": "resources/react-app/pages/admin/AdminClients.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/react-app/main.jsx",
+      "_AdminLayout-i1PdRiwb.js",
+      "_index-BkrGiNE7.js",
+      "_proxy-CWL5hJcn.js"
+    ],
+    "css": [
+      "assets/AdminStyles-CK02gXOW.css"
+    ]
+  },
+  "resources/react-app/pages/admin/AdminDashboard.jsx": {
+    "file": "assets/AdminDashboard-CQWAebKl.js",
+    "name": "AdminDashboard",
+    "src": "resources/react-app/pages/admin/AdminDashboard.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/react-app/main.jsx",
+      "_AdminLayout-i1PdRiwb.js",
+      "_proxy-CWL5hJcn.js",
+      "_index-BkrGiNE7.js"
+    ],
+    "css": [
+      "assets/AdminStyles-CK02gXOW.css"
+    ]
+  },
+  "resources/react-app/pages/admin/AdminGallery.jsx": {
+    "file": "assets/AdminGallery-RHV9XCYu.js",
+    "name": "AdminGallery",
+    "src": "resources/react-app/pages/admin/AdminGallery.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/react-app/main.jsx",
+      "_AdminLayout-i1PdRiwb.js",
+      "_proxy-CWL5hJcn.js",
+      "_index-BkrGiNE7.js"
+    ],
+    "css": [
+      "assets/AdminStyles-CK02gXOW.css"
+    ]
+  },
+  "resources/react-app/pages/admin/AdminHours.jsx": {
+    "file": "assets/AdminHours-BDcUi8Iq.js",
+    "name": "AdminHours",
+    "src": "resources/react-app/pages/admin/AdminHours.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/react-app/main.jsx",
+      "_AdminLayout-i1PdRiwb.js",
+      "_proxy-CWL5hJcn.js",
+      "_index-BkrGiNE7.js"
+    ],
+    "css": [
+      "assets/AdminStyles-CK02gXOW.css"
+    ]
+  },
+  "resources/react-app/pages/admin/AdminKreiranjePonude.jsx": {
+    "file": "assets/AdminKreiranjePonude-_pR5j5NY.js",
+    "name": "AdminKreiranjePonude",
+    "src": "resources/react-app/pages/admin/AdminKreiranjePonude.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/react-app/main.jsx",
+      "_AdminLayout-i1PdRiwb.js",
+      "_index-BkrGiNE7.js",
+      "_proxy-CWL5hJcn.js"
+    ],
+    "css": [
+      "assets/AdminStyles-CK02gXOW.css"
+    ]
+  },
+  "resources/react-app/pages/admin/AdminLogin.jsx": {
+    "file": "assets/AdminLogin-B0kZ6w8j.js",
+    "name": "AdminLogin",
+    "src": "resources/react-app/pages/admin/AdminLogin.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/react-app/main.jsx",
+      "_proxy-CWL5hJcn.js"
+    ],
+    "css": [
+      "assets/AdminStyles-CK02gXOW.css"
+    ]
+  },
+  "resources/react-app/pages/admin/AdminObracunPonude.jsx": {
+    "file": "assets/AdminObracunPonude-Cu1w2VcT.js",
+    "name": "AdminObracunPonude",
+    "src": "resources/react-app/pages/admin/AdminObracunPonude.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/react-app/main.jsx",
+      "_AdminLayout-i1PdRiwb.js",
+      "_index-BkrGiNE7.js",
+      "_proxy-CWL5hJcn.js"
+    ],
+    "css": [
+      "assets/AdminStyles-CK02gXOW.css"
+    ]
+  },
+  "resources/react-app/pages/admin/AdminProjects.jsx": {
+    "file": "assets/AdminProjects-U7xIzZjA.js",
+    "name": "AdminProjects",
+    "src": "resources/react-app/pages/admin/AdminProjects.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/react-app/main.jsx",
+      "_AdminLayout-i1PdRiwb.js",
+      "_index-BkrGiNE7.js",
+      "_proxy-CWL5hJcn.js"
+    ],
+    "css": [
+      "assets/AdminStyles-CK02gXOW.css"
+    ]
+  },
+  "resources/react-app/pages/admin/AdminWorkers.jsx": {
+    "file": "assets/AdminWorkers-C8Ea0gmR.js",
+    "name": "AdminWorkers",
+    "src": "resources/react-app/pages/admin/AdminWorkers.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/react-app/main.jsx",
+      "_AdminLayout-i1PdRiwb.js",
+      "_index-BkrGiNE7.js",
+      "_proxy-CWL5hJcn.js"
+    ],
+    "css": [
+      "assets/AdminStyles-CK02gXOW.css"
+    ]
+  },
+  "resources/react-app/pages/worker/WorkerDamageReport.jsx": {
+    "file": "assets/WorkerDamageReport-qLhu7eJc.js",
+    "name": "WorkerDamageReport",
+    "src": "resources/react-app/pages/worker/WorkerDamageReport.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/react-app/main.jsx",
+      "_WorkerStyles-BZ_JQRxk.js",
+      "_proxy-CWL5hJcn.js",
+      "_index-BkrGiNE7.js"
+    ]
+  },
+  "resources/react-app/pages/worker/WorkerHours.jsx": {
+    "file": "assets/WorkerHours-Bva10mFV.js",
+    "name": "WorkerHours",
+    "src": "resources/react-app/pages/worker/WorkerHours.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/react-app/main.jsx",
+      "_WorkerStyles-BZ_JQRxk.js",
+      "_proxy-CWL5hJcn.js",
+      "_index-BkrGiNE7.js"
+    ]
+  },
+  "resources/react-app/pages/worker/WorkerProfile.jsx": {
+    "file": "assets/WorkerProfile-CwJYFB0F.js",
+    "name": "WorkerProfile",
+    "src": "resources/react-app/pages/worker/WorkerProfile.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/react-app/main.jsx",
+      "_WorkerStyles-BZ_JQRxk.js",
+      "_proxy-CWL5hJcn.js",
+      "_index-BkrGiNE7.js"
+    ]
+  },
+  "resources/react-app/pages/worker/WorkerProjects.jsx": {
+    "file": "assets/WorkerProjects-V5Euy8zm.js",
+    "name": "WorkerProjects",
+    "src": "resources/react-app/pages/worker/WorkerProjects.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/react-app/main.jsx",
+      "_WorkerStyles-BZ_JQRxk.js",
+      "_proxy-CWL5hJcn.js",
+      "_index-BkrGiNE7.js"
+    ]
+  }
+}

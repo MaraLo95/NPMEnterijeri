@@ -1,0 +1,238 @@
+/* Desktop Sidebar */
+.header-sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 1199px) {
+  .header-sidebar {
+    display: none;
+  }
+}
+
+.nav-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.nav-menu li {
+  margin-bottom: 8px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 14px 18px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border: none;
+  border-radius: 50px;
+  color: var(--text-secondary-dark);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  max-width: 56px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link i {
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.nav-link span {
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.nav-link:hover {
+  max-width: 200px;
+  background: var(--npm-blue);
+  color: white;
+}
+
+.nav-link:hover span {
+  opacity: 1;
+}
+
+.nav-link.active {
+  background: var(--npm-blue);
+  color: white;
+  box-shadow: 0 4px 15px rgba(153, 88, 42, 0.3);
+}
+
+.nav-link.active span {
+  opacity: 1;
+}
+
+/* Mobile Menu Toggle */
+.mobile-menu-toggle {
+  display: none;
+  position: fixed;
+  top: 25px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: var(--npm-blue);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 200;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  box-shadow: 0 4px 15px rgba(153, 88, 42, 0.3);
+  transition: background 0.3s ease;
+}
+
+.mobile-menu-toggle:hover {
+  background: var(--npm-blue-dark);
+}
+
+.mobile-menu-toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.mobile-menu-toggle.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.mobile-menu-toggle.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.mobile-menu-toggle.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+@media (max-width: 1199px) {
+  .mobile-menu-toggle {
+    display: flex;
+  }
+}
+
+/* Mobile Menu Overlay */
+.mobile-menu-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 150;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  max-width: 85vw;
+  background: var(--bg-white);
+  z-index: 160;
+  overflow-y: auto;
+  box-shadow: var(--shadow-lg);
+}
+
+.mobile-menu-header {
+  padding: 24px;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.mobile-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mobile-logo .logo-icon {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, var(--npm-blue) 0%, var(--npm-blue-dark) 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-logo .logo-icon i {
+  font-size: 22px;
+  color: white;
+}
+
+.mobile-logo span {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.mobile-logo em {
+  color: var(--npm-gold);
+  font-style: normal;
+}
+
+.mobile-nav-list {
+  list-style: none;
+  padding: 16px;
+  margin: 0;
+}
+
+.mobile-nav-list li {
+  margin-bottom: 4px;
+}
+
+.mobile-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  padding: 14px 16px;
+  background: none;
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--text-secondary-dark);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.mobile-nav-link i {
+  font-size: 20px;
+}
+
+.mobile-nav-link:hover {
+  background: var(--bg-light);
+  color: var(--text-dark);
+}
+
+.mobile-nav-link.active {
+  background: var(--npm-blue);
+  color: white;
+}
+
+

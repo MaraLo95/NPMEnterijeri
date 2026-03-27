@@ -1,0 +1,134 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-background {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(67, 40, 24, 0.75) 0%,
+    rgba(111, 29, 27, 0.3) 100%
+  );
+}
+
+.hero .container {
+  position: relative;
+  z-index: 10;
+}
+
+.hero-content {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 60px 50px;
+  border-radius: var(--radius-xl);
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: var(--shadow-lg);
+}
+
+.hero-content h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: 16px;
+  background: linear-gradient(135deg, var(--npm-blue) 0%, var(--npm-blue-dark) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-subtitle {
+  font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+  color: var(--text-secondary-dark);
+  margin-bottom: 32px;
+}
+
+.typed-text {
+  color: var(--npm-blue);
+  font-weight: 600;
+  border-bottom: 2px solid var(--npm-gold);
+}
+
+.typed-cursor {
+  color: var(--npm-gold);
+  animation: blink 1s infinite;
+  font-weight: 300;
+  margin-left: 2px;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-actions .btn {
+  padding: 16px 32px;
+  font-size: 15px;
+}
+
+.hero-actions .btn i {
+  font-size: 18px;
+}
+
+.scroll-indicator {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  color: white;
+  font-size: 28px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    padding: 40px 24px;
+    margin: 0 16px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .scroll-indicator {
+    bottom: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero {
+    margin-left: 0;
+  }
+}
+
+
